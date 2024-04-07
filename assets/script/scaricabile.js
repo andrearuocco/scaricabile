@@ -153,7 +153,7 @@ const MAIN = document.querySelector("main")   //il main è già presente in HTML
 MAIN.appendChild(heading)
 
 for (let result of variable.results) {
-  const UL = document.createElement("ul")
+  const UL = document.createElement("ul")   //creo un ul per poter gestire con flex allineamento tra ogni oggetto ed "enclose CV"
   UL.classList.add("flex")
   const LI = document.createElement("li")
   const LIt = document.createElement("li")
