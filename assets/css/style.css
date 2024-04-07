@@ -158,6 +158,11 @@ footer a {
     padding-right: 1%;
 }
 
+a img{
+    width: 100%;
+    height: auto;
+}
+
 footer span {
     font-family: monospace;
     font-size: x-large;
