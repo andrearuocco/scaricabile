@@ -146,7 +146,8 @@ function print() {
   let variable = searchWork(vacant, place)
   /*console.log (searchWork(vacant, place))*/
 
-const BODY = document.querySelector("body")
+  const BODY = document.querySelector("body")
+
 let heading = document.createElement("h3")
 heading.innerText = " Search results " + variable.count
 const MAIN = document.querySelector("main")   //il main è già presente in HTML perchè in questo modo gli elementi di jobs vanno a ricadere in un unico main, migliorando la semantica
